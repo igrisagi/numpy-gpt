@@ -1,0 +1,65 @@
+vocab 65  params 354,336  random-guess loss 4.174
+step     1  train 4.165  0s
+step    50  train 2.652  8s
+step   100  train 2.437  17s
+step   150  train 2.450  25s
+step   200  train 2.434  35s
+step   250  train 2.398  val 2.387  45s
+step   300  train 2.315  55s
+step   350  train 2.217  64s
+step   400  train 2.126  73s
+step   450  train 2.206  82s
+step   500  train 2.083  val 2.144  92s
+step   550  train 2.018  102s
+step   600  train 2.061  111s
+step   650  train 2.022  120s
+step   700  train 1.971  130s
+step   750  train 1.958  val 2.025  140s
+step   800  train 1.882  150s
+step   850  train 1.858  160s
+step   900  train 1.867  169s
+step   950  train 1.785  178s
+step  1000  train 1.701  val 1.934  189s
+step  1050  train 1.750  199s
+step  1100  train 1.766  209s
+step  1150  train 1.657  218s
+step  1200  train 1.720  228s
+step  1250  train 1.668  val 1.874  239s
+step  1300  train 1.729  248s
+step  1350  train 1.807  258s
+step  1400  train 1.704  267s
+step  1450  train 1.769  277s
+step  1500  train 1.734  val 1.827  288s
+step  1550  train 1.681  298s
+step  1600  train 1.664  308s
+step  1650  train 1.562  318s
+step  1700  train 1.685  328s
+step  1750  train 1.652  val 1.806  339s
+step  1800  train 1.727  348s
+step  1850  train 1.469  358s
+step  1900  train 1.679  367s
+step  1950  train 1.483  377s
+step  2000  train 1.684  val 1.772  388s
+step  2050  train 1.603  398s
+step  2100  train 1.586  408s
+step  2150  train 1.509  418s
+step  2200  train 1.601  428s
+step  2250  train 1.504  val 1.719  438s
+step  2300  train 1.612  448s
+step  2350  train 1.510  457s
+step  2400  train 1.597  467s
+step  2450  train 1.561  476s
+step  2500  train 1.549  val 1.712  486s
+
+--- sample ---
+
+My then of sissed deperty necome; it no repent,
+And for this and hereof the prove the see shafe.
+
+GLOUCESTER:
+Harry he love me flames, thou art on these the hates;
+I'll you have you colds the grace all to speak
+Your afters of he decestings and fears, I the cannot
+Warwick it as a king to speaks which on myself,
+Or you an yet sad his from the dears should hinds
+To people deed with tree plain, here f
