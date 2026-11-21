@@ -1,0 +1,5 @@
+model.pkl
+chat.txt
+input.txt
+cornell_movie_dialogs_corpus.zip
+__pycache__/

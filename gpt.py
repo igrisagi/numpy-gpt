@@ -165,7 +165,7 @@ class GPT:
         logits, _ = self.forward(idx)
         return cross_entropy(logits.reshape(-1, self.V), targets.reshape(-1))[0]
 
-    def generate(self, idx, n, temperature=1.0, top_k=None, rng=None):
+    def generate(self, idx, n, temperature=1.0, top_k=None, rng=None, stop_ids=()):
         rng = rng or np.random.default_rng()
         idx = list(idx)
         for _ in range(n):
@@ -173,7 +173,10 @@ class GPT:
             logits = self.forward(ctx)[0][0, -1].astype(np.float64) / temperature
             if top_k:
                 logits[logits < np.sort(logits)[-top_k]] = -1e9
-            idx.append(int(rng.choice(self.V, p=softmax(logits))))
+            nxt = int(rng.choice(self.V, p=softmax(logits)))
+            idx.append(nxt)
+            if nxt in stop_ids:                  # e.g. end-of-line for chat replies
+                break
         return idx
 
 class Adam:
